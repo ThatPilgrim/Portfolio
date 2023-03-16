@@ -1,0 +1,129 @@
+
+  h1{
+    font-size: 350%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  p {
+    color: rgb(48, 48, 48);
+    font-family: Helvetica, Arial,  sans-serif  ;
+    font-size: 140%;
+  }
+  
+  h2 {
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    font-size: 190%;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  
+  p.id { 
+    width: 1250px;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 2px;
+    color: black ;
+    font-size: x-large;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 0.5em;
+  }
+
+  p.description { 
+    width: 900px;
+    border: 1.5px solid grey;
+    padding: 0.5px;
+    margin: 2px;
+    color: darkgreen ;
+    font-size: x-large;
+    border-radius: 0.2em;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+    
+  header.main{
+    font-size: 400%;
+    background: #A8A8A8;
+    text-align:center;
+    color: #000;
+  }
+  a:link {
+    color: rgba(58, 58, 255, 0.901);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #2483A3;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff0000;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  header{
+    font-size: xx-large;
+    text-align: center;
+    color: #a8a8a8a0;
+  }
+  
+  table.second, .header tr:nth-child(even) {
+    border: .1em solid #00000094;
+    padding: 0.25em;
+    background-color: #FAFAFA;
+    width: 99em;
+   }
+    
+    tr, td{
+    padding: auto;
+    }
+
+    td.header{
+    font-weight:700;
+    }
+    
+    tr:nth-child(odd) {  
+    background-color: #dee4e7;  
+    } 
+    
+    li {
+    float: left;
+    list-style: none;
+    }
+    
+    li a.list {
+    display: flex;
+    padding: 8px;
+    background-color: #dddddd;
+    border-radius: 0.3em;
+    margin: 0.2em;
+    }
+    
+    li a.direction {
+      display: flex;
+      padding: 8px;
+      background-color: #dddddd;
+      border-radius: 0.3em;
+      margin: 0.2em;
+      width: 5.6em;
+      font-size: 200%;
+      }
+      
